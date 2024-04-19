@@ -1,0 +1,4 @@
+spring.application.name=spring-ldap-example
+spring.ldap.embedded.base-dn=dc=myorg,dc=com
+spring.ldap.embedded.ldif=classpath:test-server.ldif
+spring.ldap.embedded.port=8389

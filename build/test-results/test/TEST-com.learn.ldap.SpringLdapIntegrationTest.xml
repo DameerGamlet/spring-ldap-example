@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.learn.ldap.SpringLdapIntegrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-19T11:13:04" hostname="archdamir" time="0.921">
+  <properties/>
+  <testcase name="testGetAllPersons" classname="com.learn.ldap.SpringLdapIntegrationTest" time="0.905"/>
+  <testcase name="testGetAllPersonsNames" classname="com.learn.ldap.SpringLdapIntegrationTest" time="0.007"/>
+  <testcase name="testFindPerson" classname="com.learn.ldap.SpringLdapIntegrationTest" time="0.007"/>
+  <system-out><![CDATA[14:13:03.076 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.learn.ldap.SpringLdapIntegrationTest]: SpringLdapIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:13:03.220 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.learn.ldap.Application for test class com.learn.ldap.SpringLdapIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-19T14:13:03.750+03:00  INFO 20241 --- [    Test worker] c.learn.ldap.SpringLdapIntegrationTest   : Starting SpringLdapIntegrationTest using Java 17.0.10 with PID 20241 (started by damir in /mnt/sda1/03_PROJECTS/JAVA/spring-ldap-example)
+2024-04-19T14:13:03.752+03:00  INFO 20241 --- [    Test worker] c.learn.ldap.SpringLdapIntegrationTest   : The following 1 profile is active: "test"
+2024-04-19T14:13:04.083+03:00  INFO 20241 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+2024-04-19T14:13:04.104+03:00  INFO 20241 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 LDAP repository interfaces.
+2024-04-19T14:13:04.609+03:00  INFO 20241 --- [    Test worker] c.learn.ldap.SpringLdapIntegrationTest   : Started SpringLdapIntegrationTest in 1.214 seconds (process running for 2.25)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
